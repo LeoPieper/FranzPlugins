@@ -1,0 +1,23 @@
+{
+  "name": "Prosperworks",
+  "version": "1.0.0",
+  "description": "The Simple CRM for Google Apps",
+  "main": "index.js",
+  "author": "Benjamin Schulz <b.schulz@velvion.de>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.prosperworks.com/users/sign_in",
+    "serviceName": "Prosperworks",
+    "message": "The Simple CRM for Google Apps",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
