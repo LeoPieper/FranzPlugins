@@ -1,0 +1,23 @@
+{
+  "name": "Cofounderslab",
+  "version": "1.0.0",
+  "description": "Cofounderslab",
+  "main": "index.js",
+  "author": "Leonard Pieper",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://cofounderslab.com/login",
+    "serviceName": "Cofounderslab",
+    "message": "Networking",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
