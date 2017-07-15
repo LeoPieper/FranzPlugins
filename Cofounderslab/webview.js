@@ -2,9 +2,8 @@ const path = require('path');
 
 module.exports = (Franz, options) => {
   const getMessages = () => {
-    const unreadContacts = $(".fa-users span:visible").length;
-    const unreadMail = $(".fa-envelope span:visible").length;
-    const unread = unreadContacts+unreadMail;
+    const notification = $(".notification-badge:visible").length;
+    Franz.setBadge(notification);
   }
 
   Franz.loop(getMessages);
